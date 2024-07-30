@@ -1,0 +1,42 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "jwt-symmetric-key",
+    "collectionId": "bf8e90c2-7377-464b-8733-6955c0097f41",
+    "dateExported": "2024-07-30T14:31:29.917Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d18b555d-6223-4e86-acd2-aaa9888957ae",
+            "colId": "bf8e90c2-7377-464b-8733-6955c0097f41",
+            "containerId": "",
+            "name": "get 401 unauthorized",
+            "url": "http://localhost:8080",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-30T14:28:49.350Z",
+            "modified": "2024-07-30T14:29:08.496Z",
+            "headers": []
+        },
+        {
+            "_id": "88fd048f-0f80-438e-9443-1d12cffb5ab5",
+            "colId": "bf8e90c2-7377-464b-8733-6955c0097f41",
+            "containerId": "",
+            "name": "post token",
+            "url": "http://localhost:8080/api/auth/token",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-07-30T14:29:39.205Z",
+            "modified": "2024-07-30T14:30:23.853Z",
+            "headers": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "dmills",
+                    "password": "password"
+                }
+            }
+        }
+    ],
+    "ref": "arH60uuF4Ek7bwL4ify99rBsorDwq5fgWs1mbx-rHg9RUjZcko8GQR3IlxL22HdNIo7mmx7334O9f_1YotVv2w"
+}
